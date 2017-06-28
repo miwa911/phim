@@ -1,15 +1,18 @@
   .container {
-    max-width: 600px;
+    max-width: 980px;
     text-align: center;
   }
   .wrapper {
-    max-width: 600px;
+    max-width: 980px;
     margin: 0 auto;
   }
   html, button, input, select, textarea,
   .pure-g [class *= "pure-u"] {
       font-family: monospace;
       font-size: 20px;
+  }
+  .episodes {
+    margin-top: 10px;
   }
 
   .green {

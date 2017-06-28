@@ -68,12 +68,18 @@
 
           <div class="videocontent">
             <video poster="{{video.thumb}}" id="phim-clgt-vn" class="video-js vjs-default-skin vjs-16-9 vjs-big-play-centered"
-              controls width="640" height="auto"
+              controls width="980" height="auto"
               data-setup='{"fluid":true}'>
               {{#medias}}
                 <source src="{{url}}" type="video/mp4" label="{{label}}" res="{{resolution}}" />
              {{/medias}}
             </video>
+          </div>
+
+          <div class="episodes">
+            {{#episodes}}
+              <b><a href="/watch?id={{hash}}">{{no}}</a></b>
+            {{/episodes}}
           </div>
         </div>
       </section>
